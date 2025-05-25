@@ -1,0 +1,46 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    padding: 30px;
+}
+
+.photo {
+    width: 250px;
+    height: auto;
+    margin: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.gifts {
+    margin: 20px;
+}
+
+.gift {
+    font-size: 48px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+.gift:hover {
+    transform: scale(1.2);
+}
+
+.message-box {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px dashed #555;
+    border-radius: 8px;
+    background-color: #fff3e0;
+    font-size: 18px;
+    display: none;
+}
